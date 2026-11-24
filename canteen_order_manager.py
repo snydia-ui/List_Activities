@@ -23,3 +23,5 @@ print(f"""Updated Orders:
 
 search = input("Search for an order: ")
 print(f"""Number of Occurrences: {order.count(search)}""")
+if order.count(search) > 0:
+    print(f"First Index: {order.index(search)}")
